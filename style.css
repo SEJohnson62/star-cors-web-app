@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  margin: 3rem;
+}
+
+.container {
+  display: flex;
+}
+
+.container > div {
+  flex: 1;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.container > div > * {
+  margin: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  border: solid 1px black;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+input, button {
+  height: 3rem;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
